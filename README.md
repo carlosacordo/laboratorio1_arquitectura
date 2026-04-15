@@ -87,7 +87,6 @@ Para activar el flujo completo del laboratorio en GitHub:
 - `SNYK_TOKEN`
 - `DOCKER_USERNAME`
 - `DOCKER_PASSWORD`
-- `DOCKER_IMAGE`
 - `RENDER_DEPLOY_HOOK_URL`
 
 ## Pipeline stages
@@ -96,7 +95,7 @@ Para activar el flujo completo del laboratorio en GitHub:
 2. **SonarCloud analysis** → publica análisis cuando existe `SONAR_TOKEN`
 3. **Build JAR** → genera y publica el artefacto del backend
 4. **Snyk scan** → analiza vulnerabilidades cuando existe `SNYK_TOKEN`
-5. **Docker image** → construye/publica la imagen cuando existen credenciales Docker
+5. **Docker image** → construye/publica `DOCKER_USERNAME/bancoudea:latest` cuando existen credenciales Docker
 6. **Deploy to Render** → dispara el deploy hook cuando existe `RENDER_DEPLOY_HOOK_URL`
 
 ## Notas

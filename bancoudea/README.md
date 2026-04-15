@@ -96,5 +96,4 @@ El workflow del repositorio corre sólo para el backend `bancoudea` y contempla:
 - `SNYK_TOKEN`
 - `DOCKER_USERNAME`
 - `DOCKER_PASSWORD`
-- `DOCKER_IMAGE`
 - `RENDER_DEPLOY_HOOK_URL`
