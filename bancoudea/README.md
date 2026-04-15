@@ -1,5 +1,9 @@
 # Bancoudea Backend
 
+[![CI/CD Pipeline](https://github.com/AndiEspejo/laboratorio1_arquitectura/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/AndiEspejo/laboratorio1_arquitectura/blob/main/.github/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=AndiEspejo_laboratorio1_arquitectura&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=AndiEspejo_laboratorio1_arquitectura)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=AndiEspejo_laboratorio1_arquitectura&metric=coverage)](https://sonarcloud.io/summary/new_code?id=AndiEspejo_laboratorio1_arquitectura)
+
 Backend Spring Boot del laboratorio de Arquitectura de Software.
 
 ## Stack
