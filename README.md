@@ -103,3 +103,4 @@ Para activar el flujo completo del laboratorio en GitHub:
 - El workflow está configurado para dispararse cuando cambian archivos del backend o del workflow.
 - Si faltan secrets, los jobs externos quedan en **skip** en vez de romper el pipeline.
 - Para detalles específicos del backend, ver [`bancoudea/README.md`](./bancoudea/README.md).
+- URL de Render: https://laboratorio1-arquitectura.onrender.com/
